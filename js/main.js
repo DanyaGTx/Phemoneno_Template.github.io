@@ -36,3 +36,13 @@ hamburgerClose.addEventListener("click", () => {
     body.classList.remove('stopScroll')
 })
 
+
+//Burger close-menu with escape
+body.addEventListener('keydown', (e) => {
+    if (e.which == 27) {
+        hamburgerIsOpen.classList.remove('active');
+        hamburgerIsOpen.classList.remove('shadow-menu');
+        body.classList.remove('stopScroll')
+    }
+})
+
