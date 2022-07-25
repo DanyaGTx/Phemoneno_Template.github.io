@@ -685,6 +685,9 @@ body{
 .footer__button-get-ico{
    transform: translateY(-4px);
 }
+.footer__button-get__block{
+   display: inline-block;
+}
 .footer__mobile{
    display: none;
 }
